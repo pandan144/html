@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.header{
+	background-color:rgb(235, 245, 243);
+	width:100%;
+	height:50px;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style-type:none;
+	margin-left:15px;
+}
+.headbar{
+	width:100%;
+	height:50px;
+	display:flex;
+	justify-content:space-between;
+	position:relative;
+}
+.logo{
+	width:40%;
+}
+.logo img{
+	width:10%;
+	height:40px;
+}
+ul{
+display:flex;
+justify-content:space-between;	
+}
+nav{
+	width:60%;
+	padding:15px;
+}
+/* panner */
+.panner{
+	background-image:url(../img/home-bg.jpg);
+	background-size:cover;
+	/* position:fixed; */
+	width:100%;
+	height:650px;
+	position:absolute;
+}
+.panner-cont h1{
+	letter-spacing:3px;
+	font-size:3rem;
+	font-weight:bold;
+}
+.panner-cont p{
+	letter-spacing:3px;
+	font-size:18px;
+	font-weight:30px;
+	margin-top:10px;
+}
+.panner-cont{
+	color:white;
+	margin-top:300px;
+}
+.icons{
+	margin-top:10px;
+	padding:20px 10px 10px 0px;
+}
+.about-cont{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	height:400px;
+}
+.about{
+	padding-top:700px;
+}
+.about-pic{
+	border:15px solid rgb(230, 162, 94);
+	box-sizing:none;
+}
+.about-pic img{
+	margin-left:40px;
+}
+.about-content{
+	width:100%;
+	height:400px;
+	color:gray;
+	margin-left:20px;
+	letter-spacing:3px;
+	line-height:30px;
+}
+.about-content p{
+ padding-top:30px;
+ text-transform:caption;
+}
+.about-content h1{
+	font-weight:bold;
+	font-size:30px;
+}
